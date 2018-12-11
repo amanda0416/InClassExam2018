@@ -10,7 +10,7 @@ public class Order {
 	}
 
 	public void print() {
-		System.out.print();
+		
 		
 	}
 	
