@@ -15,5 +15,5 @@ public class TicketRunner {
 		order.add(ticket);
 		order.print();
 	}
-
+ 
 }
