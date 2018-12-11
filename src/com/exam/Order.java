@@ -10,8 +10,10 @@ public class Order {
 	}
 
 	public void print() {
-		
-		
+		Ticket ticket = new Ticket("Taipei", "Keelung", 37, 2);
+		Ticket ticket1 = new Ticket("\n"+"TaiChung", "Taipei", 285, 1);
+		ticket.print();
+		ticket1.print();
 	}
 	
 }

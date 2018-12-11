@@ -5,17 +5,20 @@ public class Ticket {
 	String destination;
 	int price;
 	int quantity;
+	int total;
 	
 	public Ticket(String origin,String destination,int price,int quantity) {
 		this.origin = origin;
 		this.destination = destination;
 		this.price = price;
 		this.quantity = quantity;
+		int total = price * quantity;
+		this.total = total;
 	}
 	
 	public void print() {
-		int total = price * quantity;
-		System.out.print(origin +"\t"+ destination +"\t"+ price +"\t"+ quantity +"\t"+ total);
+		
+		System.out.print(origin +"  "+ destination +"  "+ price +"  "+ quantity +"  "+ total);
 		
 	}
 }
